@@ -52,7 +52,7 @@ export default function App() {
       <ScrollView >
         <Box flex={1} _dark={{ bg: 'coolGray.800' }} _light={{ bg: 'warmGray.50' }}>
           <Column alignItems="center" >
-            <Row _dark={{ bg: "rose.800" }} _light={{ bg: "indigo.500" }} px="1" py="3" justifyContent="space-between" alignItems="center" w="100%" maxW="sm" shadow={6}>
+            <Row _dark={{ bg: "rose.800" }} _light={{ bg: "indigo.500" }} px="1" py="3" my="3" justifyContent="space-between" alignItems="center" w="100%" maxW="sm" shadow={6}>
               <Text color="white" fontSize="20" fontWeight="bold">App FalaClarice</Text>
             </Row>
             <Column>
